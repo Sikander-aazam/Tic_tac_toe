@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(199 144 75);
+}
+
+#main_box {
+    display: flex;
+    text-align: center;
+    width: 90vmin;
+    height: 95vmin;
+    border: 2px solid rgb(70, 31, 31);
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    background-color: #59cece;
+    margin-bottom: 2rem;
+}
+
+h1 {
+    margin-top: 1rem;
+    display: inline-block;
+    font-size: 4rem;
+}
+
+.boxs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.6rem;
+    width: 60vmin;
+    height: 60vmin;
+    /* border: 1px solid black; */
+    margin-top: 2rem;
+    background-color: #5d5040;
+
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    font-size: 4rem;
+    font-weight: 600;
+    background-color: rgba(70, 27, 27, 0.765);
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.2rem;
+
+}
+
+.reset_btn {
+    background-color: rgb(6 1 3);
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    margin-top: 1rem;
+    font-weight: 600;
+    padding: 0.4rem;
+    border-radius: 1rem;
+    border: 1px solid red;
+    cursor: pointer;
+}
+
+.reset_btn:hover {
+    opacity: 0.7;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vmin;
+    width: 60vmin;
+    /* border: 1px solid red; */
+}
+
+.msg_para {
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-align: center;
+    color: #3a1542;
+}
+
+
+
+.game_para {
+    color: black;
+    font-size: 2.3rem;
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.start_btn {
+    background-color: rgb(6 1 3);
+    color: azure;
+    font-size: 25px;
+    margin-top: 1rem;
+    font-weight: 600;
+    padding: 0.4rem;
+    border-radius: 1rem;
+    border: 1px solid red;
+    cursor: pointer;
+}
+
+.hide {
+    display: none;
+}
+
+
+@media screen and (max-width: 540px) {
+    h1 {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }
+
+    #main_box {
+        height: 130vmin;
+        width: 90vmin;
+    }
+
+    .box{
+        font-size: 3rem;
+    }
+    .reset_btn {
+        font-size: 20px;
+        margin-top: 2rem;
+        padding: 0.4rem;
+    }
+    /* massege */
+
+    .message {
+        height: 110vmin;
+    }
+    
+    .msg_para {
+        font-size: 1.4rem;
+    }
+    
+    .game_para {
+        font-size: 1.7rem;
+    }
+    
+    .start_btn {
+        font-size: 20px;
+        margin-top: 2rem;
+        padding: 0.4rem;
+    }
+
+
+}
+
+@media screen and (max-width: 335px) {
+    .boxs{
+        margin-top: 1rem;
+    }
+
+    .box {
+        height: 17vmin;
+        width: 17vmin;
+        font-size: 2rem;
+    }    
+    h1{
+        font-size: 2rem;
+    }
+    .reset_btn{
+        font-size: 17px;
+        margin-top: 1.5rem;
+        padding: 0.35rem;
+    }
+
+      /* massege */
+    
+    .msg_para {
+        font-size: 1.3rem;
+    }
+    
+    .game_para {
+        font-size: 1.5rem;
+    }
+    .start_btn{
+        font-size: 17px;
+        margin-top: 1.5rem;
+        padding: 0.35rem;
+    }
+   
+
+}
+@media screen and (max-width: 290px) {
+    .msg_para {
+        font-size: 1.2rem;
+    }
+    
+    .game_para {
+        font-size: 1.4rem;
+    }
+}
+@media screen and (max-width: 265px) {
+    .msg_para {
+        font-size: 1.1rem;
+    }
+    
+    .game_para {
+        font-size: 1.1rem;
+    }
+}
+
+
+@media screen and (max-width: 215px) {
+    .box{
+        height: 16vmin;
+        width: 16vmin;
+        font-size: 1.5rem;
+    }
+
+    h1{
+        font-size: 1.5rem;
+    }
+    .reset_btn{
+        font-size: 15px;
+        margin-top: 1.2rem;
+        padding: 0.3rem;
+    }
+
+      /* massege */
+    
+      .msg_para {
+        font-size: 1rem;
+    }
+    
+    .game_para {
+        font-size: 0.9rem;
+    }
+    .start_btn{
+        font-size: 15px;
+        margin-top: 1.2rem;
+        padding: 0.3rem;
+    }
+}
+
+.ocolor{
+    color: bisque;
+}
+.xcolor{
+    color: #d0d0d1;
+}
