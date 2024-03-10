@@ -140,7 +140,7 @@ h1 {
     /* massege */
 
     .message {
-        height: 110vmin;
+        height: 170vmin;
     }
     
     .msg_para {
@@ -159,6 +159,8 @@ h1 {
 
 
 }
+
+
 
 @media screen and (max-width: 335px) {
     .boxs{
@@ -196,7 +198,42 @@ h1 {
    
 
 }
+
+@media screen and (max-width: 405px){
+    /* massege */
+
+    .message {
+        height: 190vmin;
+    }
+}
+
+@media screen and (max-width: 380px){
+    /* massege */
+
+    .message {
+        height: 210vmin;
+    }
+}
+
+@media screen and (max-width: 340px){
+    /* massege */
+
+    .message {
+        height: 230vmin;
+    }
+}
+
+@media screen and (max-width: 310px){
+    /* massege */
+
+    .message {
+        height: 250vmin;
+    }
+}
 @media screen and (max-width: 290px) {
+    .message {
+        height: 270vmin;
+    }
     .msg_para {
         font-size: 1.2rem;
     }
@@ -206,6 +243,9 @@ h1 {
     }
 }
 @media screen and (max-width: 265px) {
+        .message {
+        height: 335vmin;
+    }
     .msg_para {
         font-size: 1.1rem;
     }
@@ -233,7 +273,9 @@ h1 {
     }
 
       /* massege */
-    
+         .message {
+        height: 410vmin;
+    }
       .msg_para {
         font-size: 1rem;
     }
